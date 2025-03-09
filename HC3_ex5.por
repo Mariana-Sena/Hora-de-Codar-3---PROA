@@ -11,16 +11,18 @@ programa {
         escreva("Digite o segundo número: ")
         leia(num2)
         
+        escreva("\nNúmeros no intervalo: ")
         para(i = num1; i <= num2; i++) {
+            escreva(i, " ")
             soma = soma + i
             contador++
         }
         
         media = soma / contador
-        escreva("Média: ", media)
+        escreva("\n\nMédia: ", media)
     }
 }
-//faltou mostrar todos os numeors inteiros entre eles, como pede no enunciado
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
